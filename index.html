@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador Alura</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style2.css">
+    <script src="script.js"></script>
+</head>
+
+
+<body>
+
+    <header>
+        <img src="Imagenes/Alura-Oracle.png">
+    </header>
+
+    <div class="Contenedor">
+        <div class="AreaTexto">
+            <div class="Area">
+                <!-- Area 1 -->
+                <textarea class="Entrada" id="textoEntrada" placeholder="Ingrese texto aquí: 
+
+                        
+                        Solo se admiten letras minusculas y sin acentos"></textarea>
+            </div>
+            <div class="Area">
+                <!-- Area 2 -->
+                <textarea class="Salida" id="textoResultado" placeholder="Ningun mensaje fue encontrado"></textarea>
+            </div>
+        </div>
+        
+        <div class="Botones">
+            <button onclick="procesarTexto()">Encriptar</button>
+            <button onclick="desencriptarTexto()">Desencriptar</button>
+            <button onclick="copiarTexto()">Copiar</button>
+        </div>
+    </div>
+
+    <footer>
+        <img src="Imagenes/Logo.png"></img>
+        <p class="copyright">&copy Copyright Encriptador - Alura Challenge 1</p>
+        <p desarrollador>Desarrollado por: Nicolas Ayala Rosas</p>
+    </footer>
+</body>
+
+</html>

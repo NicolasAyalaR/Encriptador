@@ -1,0 +1,79 @@
+header {
+    background: #1f6cc9;
+}
+
+body {
+    background-color: #F3F5FC;
+}
+
+textarea {
+    padding: 20px;
+    width: 90%;
+    height: 40vh; 
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 10px auto;
+    resize: none;
+    background: transparent;
+    font-family: Italic;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.Contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Botones {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.AreaTexto {
+    display: flex;
+    justify-content: space-between;
+    width: 90%; 
+}
+
+.Area {
+    flex: 1; 
+}
+
+.Restricciones {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.Botones button {
+    width: 160px;
+    height: 35px;
+    gap: 8px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    max-width: 50%; 
+    height: auto;
+    }
